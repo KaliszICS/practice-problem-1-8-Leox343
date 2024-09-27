@@ -29,7 +29,7 @@ def q4():
 def q5():
   #Write Assignment code here
   bool6 = input("Enter an integer: ")
-  bool7 = int(bool6) % 1 or not int(bool6) % 2
+  bool7 = int(bool6) % 2 == 0
   print(f"The integer {bool6} is {bool7}.")
 #Do not edit code after this
 #Comment out the followwing code when running tests
